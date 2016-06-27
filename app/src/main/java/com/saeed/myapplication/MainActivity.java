@@ -29,13 +29,7 @@ public class MainActivity extends SampleActivityBase
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-      //
-        //
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-      //  setSupportActionBar(toolbar);
-
-        manager = getSupportFragmentManager();
+        
 
 
      //   DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
