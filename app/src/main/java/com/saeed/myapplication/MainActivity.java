@@ -28,8 +28,11 @@ public class MainActivity extends SampleActivityBase
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("my TEST");
-      //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+
+      //
+        //
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
       //  setSupportActionBar(toolbar);
 
         manager = getSupportFragmentManager();
